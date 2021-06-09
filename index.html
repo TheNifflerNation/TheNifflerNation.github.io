@@ -6,22 +6,14 @@
     <title>The Niffler Nation</title>
 </head>
 
-<body>
-    <h1 style="text-align: center; -webkit-text-stroke-color: white; -webkit-text-stroke-width: 1px;" id="time"></h1>
+<body style="margin: 0px;">
+    <header style="background-color: rgb(230, 230, 230); color: black;">
+        <h1
+            style="text-align: center; font-family:'Courier New', Courier, monospace; padding-top: 10px; padding-bottom: 10px;">
+            The Niffler Nation
+        </h1>
+    </header>
     <script>
-        var date = new Date();
-        var time = ""
-        var text = document.getElementById("time");
-        setInterval(() => {
-            var date = new Date();
-            time = "";
-            time += String(date.getHours()).padStart(2, '0')
-            time += ":"
-            time += String(date.getMinutes()).padStart(2, '0')
-            time += ":"
-            time += String(date.getSeconds()).padStart(2, '0')
-            text.innerHTML = time
-        }, 1000)
         setInterval(() => {
             document.body.style.backgroundColor = "rgb(" + Math.random() * 256 + ", " + Math.random() * 256 +
                 ", " + Math.random() * 256 + ")"
