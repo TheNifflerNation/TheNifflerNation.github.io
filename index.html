@@ -1,15 +1,32 @@
-<!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Time</title>
 </head>
 
 <body>
-    <h1>Hey guys, the Niffler Magazine Website is currently being built so bear with me!</h1>
+    <h1 style="text-align: center; -webkit-text-stroke-color: white; -webkit-text-stroke-width: 1px;" id="time"></h1>
+    <script>
+        var date = new Date();
+        var time = ""
+        var text = document.getElementById("time");
+        setInterval(() => {
+            var date = new Date();
+            time = "";
+            time += String(date.getHours()).padStart(2, '0')
+            time += ":"
+            time += String(date.getMinutes()).padStart(2, '0')
+            time += ":"
+            time += String(date.getSeconds()).padStart(2, '0')
+            text.innerHTML = time
+        }, 1000)
+        setInterval(() => {
+            document.body.style.backgroundColor = "rgb(" + Math.random() * 256 + ", " + Math.random() * 256 +
+                ", " + Math.random() * 256 + ")"
+        }, 1000)
+    </script>
 </body>
 
 </html>
