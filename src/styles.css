@@ -48,3 +48,26 @@ body {
     background-color: darkblue;
     font-family: Helvetica;
 }
+
+#ArticleFooter {
+    display: inline-block;
+    text-align: center;
+    background-color: darkblue;
+    width: 65%;
+}
+
+#EpilepsyButton {
+    display: inline-block;
+    font-family: Helvetica;
+    cursor: pointer;
+    color: white;
+    width: 80px;
+    height: 30px;
+    background-color: red;
+}
+
+#EpilepsyText {
+    margin: 0px;
+    margin-top: 5px;
+    padding-top: 1px;
+}
