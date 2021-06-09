@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(170, 170, 170);
+}
+
+#MainHeader {
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+#HeaderTitle {
+    margin: 0cm;
+    padding: 10px 0px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#SubHeader {
+    text-align: center;
+    background-color: gold;
+    color: black;
+}
+
+.HeaderSubTitle {
+    margin: 0px;
+    padding: 10px 50px;
+    font-family: Helvetica;
+    display: inline-block;
+}
+
+.HeaderSubTitleLink {
+    color: black;
+    text-decoration: none;
+}
+
+#ArticleBody {
+    display: inline-block;
+    background-color: white;
+    width: 65%;
+    height: 700px;
+}
+
+#BreakingBanner {
+    margin: 0px;
+    padding: 10px 0px;
+    color: white;
+    background-color: darkblue;
+    font-family: Helvetica;
+}
