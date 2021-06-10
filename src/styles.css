@@ -49,6 +49,14 @@ body {
     font-family: Helvetica;
 }
 
+.ArticleText {
+    margin: 0px;
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: medium;
+    text-align: justify;
+}
+
 #ArticleFooter {
     display: inline-block;
     text-align: center;
